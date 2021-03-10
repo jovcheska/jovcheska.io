@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-css-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/css/style.css -o ./public/style.css",
+    "production": "NODE_ENV=production postcss ./src/css/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "cvetkovski.mario@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.3",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2",
+    "win-node-env": "^0.4.0"
+  }
+}

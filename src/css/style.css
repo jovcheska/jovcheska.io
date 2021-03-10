@@ -1,0 +1,54 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Colors */
+    
+/* Backgrounds and images*/
+.bg-hero {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-curve {
+    background-repeat: no-repeat;
+}
+.bg-wireframe1 {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-ecommerce-mockup1,
+.bg-real-life,
+.bg-real-life-sm,
+.bg-real-life-lg {
+    background-repeat: no-repeat!important;
+    background-size: cover;
+}
+.hero-screen {
+    min-height: calc(100vh - 117px);
+    height: 100%;
+}
+@media (min-width: 768px) {
+    .hero-screen {
+      min-height: calc(100vh - 171px);
+    }
+}
+
+.project-img {
+    width: 100%;
+    max-width: 376px;
+    height: auto;
+}
+.ul-dots li::before,
+.ul-dots-purple li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1rem;
+    margin-left: -1em;
+}
+.ul-dots-purple li::before {
+    color: #C8ACC2;
+}
